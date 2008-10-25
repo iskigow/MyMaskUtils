@@ -36,7 +36,7 @@ public class Mascara {
 	public static final String HORA;
 
 	static {
-		ER = Pattern.compile("(?i)([#])");
+		ER = Pattern.compile("([#]+)");
 		MASCARA_CPF = "###.###.###-##";
 		MASCARA_CNPJ = "##.###.###/####-##";
 		MASCARA_CEP = "##.###-##";

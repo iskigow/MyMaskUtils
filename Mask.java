@@ -35,7 +35,7 @@ public class Mask {
 	public static final String HOUR_BRAZIL;
 
 	static {
-		ER = Pattern.compile("(?i)([#])");
+		ER = Pattern.compile("([#]+)");
 		MASK_CPF_BRAZIL = "###.###.###-##";
 		MASK_CNPJ_BRAZIL = "##.###.###/####-##";
 		MASK_ZIP_BRAZIL = "##.###-##";
