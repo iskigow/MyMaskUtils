@@ -2,16 +2,16 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /**
- * Classe responsavel por colocar e retirar a m·scara de um dado. <br>
+ * Classe responsavel por colocar e retirar a m√°scara de um dado. <br>
  * <br>
- * A classe possui alguns padrıes prÛprios, mas n„o impede de criar seu prÛprio padr„o de mascara. <br>
+ * A classe possui alguns padr√µes pr√≥prios, mas n√£o impede de criar seu pr√≥prio padr√£o de mascara. <br>
  * <br>
  * <em>Futuras melhorias</em> - Arrumar a classe de modo que possa mascarar parte do dado,<br>
- * isto È mascara parcial.<br>
+ * isto √© mascara parcial.<br>
  * <br>
  * Ex.:<br>
  * <br>
- * TELEFONE pode ser ou <code>###-####</code>, ou <code>####-####</code>, ou <code>(##)####-####</code>. E a prÛpria classe tratar isso.
+ * TELEFONE pode ser ou <code>###-####</code>, ou <code>####-####</code>, ou <code>(##)####-####</code>. E a pr√≥pria classe tratar isso.
  * de modo que a chamada para mascarar seja simplesmente:<br>
  * <br>
  * <code>Mascara.mascararToString( dadoTelefone, Mascara.TELEFONE );</code>  
@@ -21,7 +21,7 @@ import java.util.regex.Pattern;
  * @eamil iskigow@gmail.com
  * @version 1.0
  * @category Classe Util 
- * @since terÁa-feira, 18 de dezembro de 2007, 17:52:46
+ * @since ter√ßa-feira, 18 de dezembro de 2007, 17:52:46
  */
 
 public class Mascara {
