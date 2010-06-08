@@ -17,7 +17,7 @@ import java.util.regex.Pattern;
  * <code>Mask.mascararToString( dataPhone, Mask.PHONE );</code>  
  *  
  * @author Rodrigo Gilberto Marin Catto
- * @eamil iskigow@gmail.com
+ * @eamil iskigow #at# gmail #dot# com
  * @version 1.0
  * @category Util Class
  * @since Friday, 24 oct 2008 02:54:48 PM
@@ -35,7 +35,7 @@ public class Mask {
 	public static final String HOUR_BRAZIL;
 
 	static {
-		ER = Pattern.compile("(?i)([#])");
+		ER = Pattern.compile("([#]+)");
 		MASK_CPF_BRAZIL = "###.###.###-##";
 		MASK_CNPJ_BRAZIL = "##.###.###/####-##";
 		MASK_ZIP_BRAZIL = "##.###-##";
