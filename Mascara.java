@@ -50,6 +50,9 @@ public class Mascara {
 	}
 
 	public static String mascararToString(String dado, String mascara) {
+		if ( dado == null || mascara == null ) {
+			return dado;
+		}
 		String mascara_aux = mascara;
 		Matcher resultado = ER.matcher(mascara_aux);
 		StringBuffer sb = new StringBuffer();
@@ -68,6 +71,9 @@ public class Mascara {
 	}
 
 	public static String desmascararToString(String dado) {
+		if ( dado == null ) {
+			return dado;
+		}
 		String er = "([^\\p{Alnum}])";
 		return dado.replaceAll(er, "");
 	}
