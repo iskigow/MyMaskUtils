@@ -19,7 +19,7 @@ import java.util.regex.Pattern;
  * 
  * @author Rodrigo Gilberto Marin Catto
  * @email iskigow #at# gmail #dot# com
- * @version 1.0
+ * @version 1.1
  * @category Classe Util 
  * @since terça-feira, 18 de dezembro de 2007, 17:52:46
  */
