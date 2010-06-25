@@ -18,7 +18,7 @@ import java.util.regex.Pattern;
  *  
  * @author Rodrigo Gilberto Marin Catto
  * @email iskigow #at# gmail #dot# com
- * @version 1.0
+ * @version 1.1
  * @category Util Class
  * @since Friday, 24 oct 2008 02:54:48 PM
  */
@@ -49,6 +49,9 @@ public class Mask {
 	}
 
 	public static String maskToString(String data, String mask) {
+		if ( data == null || mask == null ) {
+			return data;
+		}
 		String maskAux = mask;
 		Matcher result = ER.matcher(maskAux);
 		StringBuffer sb = new StringBuffer();
@@ -67,6 +70,9 @@ public class Mask {
 	}
 
 	public static String unmaskToString(String data) {
+		if ( data == null ) {
+			return data;
+		}
 		String er = "([^\\p{Alnum}])";
 		return data.replaceAll(er, "");
 	}
