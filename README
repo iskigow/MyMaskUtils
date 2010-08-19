@@ -28,6 +28,8 @@
  * EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
+version 1.2
+
 Util Class, which mask data.
 
 Instalation:
